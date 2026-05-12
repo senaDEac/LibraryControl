@@ -1,0 +1,114 @@
+# === Build Artifacts ===
+build/
+dist/
+target/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+*.out
+*.class
+*.jar
+*.war
+*.pyc
+*.pyo
+*.egg
+*.egg-info/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+*.log
+
+# === Node ===
+node_modules/
+.npm/
+.yarn/
+pnpm-lock.yaml
+package-lock.json
+
+# === Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+CrashReport/
+
+# === Unreal Engine ===
+DerivedDataCache/
+Intermediate/
+Saved/
+Binaries/
+Build/
+*.opensdf
+*.sdf
+*.VC.db
+*.sln
+*.suo
+
+# === Rust ===
+target/
+Cargo.lock
+
+# === Go ===
+vendor/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# === OS Files ===
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# === Temp / Trash ===
+tmp/
+temp/
+trash/
+lixo/
+cache/
+*.bak
+*.orig
+*.old
+crashlytics-*
+*.log
+logs/
+
+# === Docker ===
+.docker/
+docker-compose.override.yml

@@ -1,0 +1,48 @@
+# Generated source
+lib/    linguist-generated
+
+# Binary artifacts
+*.7z    binary linguist-generated
+*.7z.*  binary linguist-generated
+*.zip   binary
+*.gz    binary
+*.tar   binary
+*.bin   binary
+*.exe   binary linguist-generated
+*.dll   binary linguist-generated
+*.so    binary linguist-generated
+*.dylib binary linguist-generated
+*.class binary linguist-generated
+*.pyc   binary linguist-generated
+*.o     binary linguist-generated
+*.obj   binary linguist-generated
+*.lib   binary linguist-generated
+*.a     binary linguist-generated
+*.jar   binary linguist-generated
+*.war   binary linguist-generated
+*.pdf   binary
+*.doc   binary
+*.docx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.svg   text
+*.DS_Store binary
+
+# Text with specific rules
+*.sh    text eol=lf
+*.py    text diff=python
+*.md    text
+*.toml  text
+*.yaml  text
+*.yml   text
+*.json  text
+*.xml   text
+*.cfg   text
+*.ini   text
+*.conf  text
+*.txt   text
+*.gitignore text
+*.gitattributes text
